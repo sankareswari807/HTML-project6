@@ -1,0 +1,85 @@
+html,body,div{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.arrow-icon{
+    font-size: 20px;
+    color: #b2b5c1;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.cross-icon{
+    font-size: 20px;
+    color: #b2b5c1;
+    padding-top: 20px;
+    padding-right: 25px;
+    float: right;
+    cursor: pointer;
+}
+
+.middle-section{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+}
+
+.middle-text{
+    color: #293146;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 40px;
+    font-style: normal;
+}
+
+.main-section{
+    margin: auto;
+}
+
+.box{
+    background-color: #fdfdff;
+    height: 350px;
+    margin: 20px;
+    padding-top: 20px;
+    float: left;
+    border: 1px solid #ECECF2;
+    border-radius: 4px;
+}
+
+.main-text{
+    text-align: center;
+    color: #5e6474;
+    font-weight: 800;
+    font-size: 17px;
+    padding-top: 40px;
+}
+
+p{
+    font-size: 15px;
+    padding: 0px 30px;
+    font-weight: 400;
+}
+
+.button-box{
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #ecedf2;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.picture-icon{
+    font-size: 100px;
+    color: #ECECF2;
+    cursor: pointer;
+}
+
+.image{
+    text-align: center;
+    padding-top: 30px;
+}
