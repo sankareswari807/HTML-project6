@@ -1,0 +1,29 @@
+@mixin icon {
+    font-size: 20px;
+    color: #b2b5c1;
+    cursor: $cursor;
+    padding-top: 30px;
+}
+
+@mixin text {
+    color: #293146;
+    cursor: $cursor;
+    text-align: $textalign;
+}
+
+@mixin floatproperties($position) {
+    float: $position;
+}
+
+@mixin  fontsize($value) {
+    font-size: $value;
+}
+
+@mixin boxsizing {
+    box-sizing: border-box;
+}
+
+@mixin align {
+    text-align: $textalign;
+    cursor:$cursor;
+}

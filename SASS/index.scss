@@ -1,0 +1,107 @@
+@import 'partials/partials';
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -45%);
+
+    .arrow-icon{
+        @include icon;
+        padding-left: 31px;
+    }
+    
+    .cross-icon{
+        @include icon;
+        @include floatproperties(right);
+        padding-top: 30px;
+        padding-right: 30px;
+    }
+
+    .middle-section{
+        width: 1440px;
+        margin: auto;
+
+        .middle-text{
+            @include text;
+            @include fontsize(30px);
+            padding-top: 157px;
+        }
+
+        .main-section{
+            width: 1148px;  
+            margin-top: 49px;
+            margin-right: auto;
+            margin-left: auto;
+
+
+            .box{
+                @include floatproperties(left);
+                @include boxsizing;
+                width: 354px;
+                height: 346px;
+                border: 1px solid #ECECF2;
+                border-radius: 4px;
+                background-color: #fdfdff;
+                margin-left: 41px;
+            
+                .image{
+                    text-align: $textalign;
+                    padding-top: 80px;
+            
+                    .picture-icon{
+                        @include fontsize(75px);
+                        color: #ECECF2;
+                        cursor: $cursor;
+                    }
+            
+                } 
+            
+                .main-text{
+                    @include text;
+                    @include fontsize(18px);
+                    padding-top: 33px;
+                    font-weight: 500;
+                    font-style: normal;
+                }
+            
+                p{
+                    @include fontsize(14px);
+                    width: 288px;
+                    height: 17px;
+                    margin: auto;
+                    color: #4D5770;
+                    padding-top: 6px;
+                }
+            
+                .button-box{
+                    @include boxsizing;
+                    @include align;
+                    width: 116px;
+                    height: 37px;
+                    border: 1px solid #DDDFE8;
+                    border-radius: 4px;
+                    background-color: #FCFCFD;
+                    margin: auto;
+                    padding:9px;
+                    margin-top: 25px;
+                    margin-bottom: 60px;
+                }
+            
+                &:first-child{
+                    margin-left: 0px;
+                }           
+            }
+
+        }
+
+        .clearfix{
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+    }
+
+}
+
